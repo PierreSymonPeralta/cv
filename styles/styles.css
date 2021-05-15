@@ -91,6 +91,7 @@ nav ul li a {
 }
 
 @media (max-width: 980px) { 
-
-  
+  .nav-social-links a::before {
+    display: none;
+  }
 }
