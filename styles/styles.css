@@ -108,23 +108,26 @@ nav ul li a {
 @media print { 
   body {
     margin-top: -18px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   h1, h3, p, ul {
     margin: 4px 0;
   }
 
-  h2 {
-    margin: 12px 0;
-  }
-
   h1 {
     font-size: 1.4rem;
   }
 
-  h2, h3  {
+  h2 {
+    font-size: 0.9rem;
+    margin: 12px 0;
+    border-bottom: 0.2px solid rgb(52, 87, 116);
+  }
+
+  h3  {
     font-size: 0.8rem;
+    margin: 12px 0;
   }
 
   nav {
