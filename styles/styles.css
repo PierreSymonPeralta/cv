@@ -67,11 +67,11 @@ nav ul li a {
 }
 
 .nav-social-links .linkedin::before{
-  background-image: url('/symonperalta.github.io/images/linkedIn.png');
+  background-image: url('/cv/images/linkedIn.png');
 }
 
 .nav-social-links .github::before{
-  background-image: url('/symonperalta.github.io/images/github.png');
+  background-image: url('/cv/images/github.png');
 }
 
 .main {
