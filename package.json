@@ -1,0 +1,17 @@
+{
+  "name": "psp-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf docs",
+    "serve": "npm run clean && npx @11ty/eleventy --serve --formats=md,html,gif,jpeg,png",
+    "build": "env NODE_ENV=production npx @11ty/eleventy --formats=md,html,gif,jpeg,png"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
