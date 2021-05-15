@@ -70,8 +70,7 @@ Project 1 : Cloud Connect
 *PLSQL*
 
 
-### Endlessrise Inc. Philippines  *( Feb 2015 –March 2015 )*
-Role: Front End Developer
+### Endlessrise Inc. Philippines - Front End Developer  *( Feb 2015 – March 2015 )*
 - Customized pages, themes and widgets for Wordpress sites
 - Ensure all the pages and widgets are responsive
 - SEO and Google Analytics setup
@@ -97,6 +96,7 @@ Role: Front End Developer
 
 ### Pambayang Dalubhasaan ng Marilao, Philippines
 Bachelor of Science in Information Technology (BSIT)
+
 Duration: June 2010 - April 2014
 
 ## References

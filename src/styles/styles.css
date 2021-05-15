@@ -74,6 +74,15 @@ nav ul li a {
   background-image: url('/cv/images/github.png');
 }
 
+.nav-print-details {
+  display: none;
+  word-break: break-all;
+  font-size: 0.5rem;
+}
+.nav-print-details li {
+  padding: 4px 0;
+}
+
 .main {
   position: relative;
   width: 100%;
@@ -94,4 +103,44 @@ nav ul li a {
   .nav-social-links a::before {
     display: none;
   }
+}
+
+@media print { 
+  body {
+    margin-top: -18px;
+    font-size: 0.7rem;
+  }
+
+  h1, h3, p, ul {
+    margin: 4px 0;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+    margin: 12px 0;
+    border-bottom: 0.2px solid rgb(52, 87, 116);
+  }
+
+  h3  {
+    font-size: 0.8rem;
+    margin: 12px 0;
+  }
+
+  nav {
+    max-width: 22%;
+    margin-left: -1rem;
+  }
+
+  nav .nav-menu {
+    display: none;
+  }
+
+  nav .nav-print-details {
+    display: block;
+  }
+
 }

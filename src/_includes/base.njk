@@ -15,10 +15,22 @@ profileImage: "/images/dp.jpeg"
 </head>
   <body>
     <nav>
-      <button class="nav-menu-btn">Menu</button>
       <div class="nav-content">
         <img src="{{ profileImage | url }}" alt={{ profileImage | url }}}>
-        <ul>
+
+        {# for print #}
+        <ul class="nav-print-details">
+          <li>pierresymonperalta@gmail.com</li>
+          <li>+65-81849775</li>
+          <li>#15-204 546 Hougang Street 51, Singapore</li>
+          <li>
+            <div>
+              Web version:
+              <p>https://pierresymonperalta.github.io/cv</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="nav-menu">
           <li><a href="{{ '/' | url }}">Resume</a></li>
           <li><a href="{{ '/contact' | url }}">Contact Me</a></li>
         </ul>
