@@ -65,11 +65,11 @@ nav ul li a {
 }
 
 .nav-social-links .linkedin::before{
-  background-image: url('/images/linkedin.png');
+  background-image: url('images/linkedin.png');
 }
 
 .nav-social-links .github::before{
-  background-image: url('/images/github.png');
+  background-image: url('images/github.png');
 }
 
 .main {
