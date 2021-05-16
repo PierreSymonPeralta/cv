@@ -16,29 +16,29 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
-nav .nav-menu-btn {
-  display: none;
-}
+  .nav-menu-btn {
+    display: none;
+  }
 
-nav .nav-content {
-  height: 100%;
-  background-color: rgb(52, 87, 116);
-  padding: 2rem 1rem;
-}
+  .nav-content {
+    height: 100%;
+    background-color: rgb(52, 87, 116);
+    padding: 2rem 1rem;
+  }
 
-nav img {
-  display: inline-block;
-  width: 15vw;
-  height: 15vw;
-  max-width: 220px;
-  max-height: 220px;
-  border-radius: 50%;
-}
+  img {
+    display: inline-block;
+    width: 15vw;
+    height: 15vw;
+    max-width: 220px;
+    max-height: 220px;
+    border-radius: 50%;
+  }
 
-nav img:hover {
-  filter: grayscale(50%);
+  img:hover {
+    filter: grayscale(50%);
+  }
 }
 
 nav ul {
@@ -46,13 +46,13 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 2rem 0 0 0;
-}
 
-nav ul li a {
-  display: inline-block;
-  text-decoration: none;
-  color: #fff;
-  padding: 1rem 0;
+  li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 0;
+  }
 }
 
 .nav-social-links a::before {
@@ -78,25 +78,26 @@ nav ul li a {
   display: none;
   word-break: break-all;
   font-size: 0.5rem;
-}
-.nav-print-details li {
-  padding: 4px 0;
-}
+
+  li {
+    padding: 4px 0;
+  }
+}  
 
 .main {
   position: relative;
   width: 100%;
   padding: 1rem;
-}
 
-.main .footer {
-  font-size: 0.80rem;
-  position: absolute;
-  padding: 1rem;
-  text-align: end;
-  right: 0;
-  left: 0;
-  bottom: 0;
+  .footer {
+    font-size: 0.80rem;
+    position: absolute;
+    padding: 1rem;
+    text-align: end;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
 }
 
 @media (max-width: 980px) { 
@@ -133,14 +134,13 @@ nav ul li a {
   nav {
     max-width: 22%;
     margin-left: -1rem;
-  }
 
-  nav .nav-menu {
-    display: none;
-  }
+    .nav-menu {
+      display: none;
+    }
 
-  nav .nav-print-details {
-    display: block;
+    .nav-print-details {
+      display: block;
+    }
   }
-
 }

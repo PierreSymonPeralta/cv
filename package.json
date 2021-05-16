@@ -5,13 +5,23 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf docs",
-    "serve": "npm run clean && npx @11ty/eleventy --serve --formats=md,html,gif,jpeg,png",
-    "build": "env NODE_ENV=production npx @11ty/eleventy --formats=md,html,gif,jpeg,png"
+    "build:eleventy": "env NODE_ENV=production npx @11ty/eleventy --formats=md,html,gif,jpeg,png",
+    "build:sass": "sass  --no-source-map src/styles:docs/styles",
+    "watch:eleventy": "npx @11ty/eleventy --serve --formats=md,html,gif,jpeg,png",
+    "watch:sass": "sass  --no-source-map --watch src/styles:docs/styles",
+    "serve": "npm run clean && npm-run-all --parallel watch:*",
+    "build": "npm run clean && npm-run-all build:sass build:eleventy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^0.12.1",
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.2",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.2.15",
+    "postcss-cli": "^8.3.1",
+    "sass": "^1.32.13"
   }
 }
