@@ -16,6 +16,7 @@ Passionate about core web technologies, improving performance and best practices
 Project 3 : Singapore Exchange Limited - Investment Holdings Company
 
 Role: Front-End and Automation Engineer
+- Develop and maintain their public website with millions of visit per month
 - Write reusable web components and libraries (with matching documentation)
 to a standard which makes it quick and easy to maintain the code in the
 future
