@@ -12,11 +12,17 @@ Passionate about core web technologies, improving performance and best practices
 
 ## Experience
 
-### Maltem Consulting Group, Singapore - Software Consultant  *( June 2017 - Present )*
+### Taiger - Front-End Engineer  *( Sept 2021 - Present )*
+
+- TBD
+
+**Tech used:**
+*HTML5, CSS3, JavaScript, SASS, VueJS, NodeJS, Bash*
+
+### Maltem Consulting Group, Singapore - Software Consultant  *( June 2017 - Sept 2021 )*
 Project 3 : Singapore Exchange Limited - Investment Holdings Company
 
 Role: Front-End and Automation Engineer
-- Develop and maintain their public website with millions of visit per month
 - Write reusable web components and libraries (with matching documentation)
 to a standard which makes it quick and easy to maintain the code in the
 future
