@@ -6,18 +6,20 @@ layout: base.njk
 ### JavaScript Developer
 
 ## Summary
-Front end developer with 5+ years of experience of building web applications and tools for small to enterprise level organizations.
+Front end developer with 6+ years of experience of building web applications and tools for small to enterprise level organizations.
 Passionate about core web technologies, improving performance and best practices.
 
 
 ## Experience
 
-### Taiger - Front-End Engineer  *( Sept 2021 - Present )*
+### Taiger - Staff Front-End Engineer  *( Sept 2021 - Present )*
 
-- TBD
+- Develop product and implement various product customisation based on client's design specifications
+- Enhance front end code architecture
+- Help to set up CI/CD pipelines on Bamboo
 
 **Tech used:**
-*HTML5, CSS3, JavaScript, SASS, VueJS, NodeJS, Bash*
+*HTML5, CSS3, JavaScript, SASS, VueJS, Vuex, Jest, NodeJS, Bash*
 
 ### Maltem Consulting Group, Singapore - Software Consultant  *( June 2017 - Sept 2021 )*
 Project 3 : Singapore Exchange Limited - Investment Holdings Company
@@ -92,6 +94,9 @@ Role: Associate Software Engineer
 **Tech used:** 
 *HTML5, CSS3, JavaScript, PHP, Wordpress*
 
+### MC DLC Foods Inc *( Sept 2009 – March 2015 )*
+- Internal Management Trainee
+- Service Crew Chief & Crew Trainer
 
 ## Skills
 
