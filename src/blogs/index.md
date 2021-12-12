@@ -6,5 +6,5 @@ eleventyExcludeFromCollections: true
 
 
 {% for blog in collections.blogs %}
-  - [{{ blog.data.pageTitle }}]({{ blog.url }})
+  - [{{ blog.data.pageTitle }}]({{ blog.url | url }})
 {% endfor %}

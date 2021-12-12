@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf docs",
-    "build:eleventy": "env NODE_ENV=production npx @11ty/eleventy --formats=md,html,gif,jpeg,png",
+    "build:eleventy": "env NODE_ENV=production npx @11ty/eleventy",
     "build:sass": "sass  --no-source-map src/styles:docs/styles",
-    "watch:eleventy": "npx @11ty/eleventy --serve --formats=md,html,gif,jpeg,png",
+    "watch:eleventy": "npx @11ty/eleventy --serve",
     "watch:sass": "sass  --no-source-map --watch src/styles:docs/styles",
-    "serve": "npm run clean && npm-run-all --parallel watch:*",
+    "postbuild": "postcss docs/styles/*.css -u autoprefixer cssnano -r --no-map",
+    "start": "npm run clean && npm-run-all --parallel watch:*",
     "build": "npm run clean && npm-run-all build:sass build:eleventy"
   },
   "keywords": [],

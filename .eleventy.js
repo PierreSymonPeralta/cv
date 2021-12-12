@@ -1,11 +1,11 @@
 module.exports = ((eleventyConfig) => {
    eleventyConfig.addWatchTarget("./src/sass/");
-   eleventyConfig.addPassthroughCopy('src/images');
    return {
      dir: {
        input: 'src',
        output: 'docs',
      },
+     templateFormats: [ 'md', 'html', 'gif', 'jpeg', 'png' ],
      pathPrefix: '/cv/'
    }
 });
