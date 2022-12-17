@@ -3,16 +3,28 @@ pageTitle: Pierre Symon Peralta
 layout: base.njk
 ---
 
-### JavaScript Developer
+### Front-End Developer
 
 ## Summary
-Front end developer with 6+ years of experience of building web applications and tools for small to enterprise level organizations.
+JavaScript developer with 7 years of experience of building web applications and tools for small to enterprise level organizations.
 Passionate about core web technologies, improving performance and best practices.
 
 
 ## Experience
 
-### Taiger - Staff Front-End Engineer  *( Sept 2021 - Present )*
+### SGX Group (Singapore Exchange) - Senior Software Engineer  *( Jan 2022 - Present )*
+
+- Build reusable components, tools and libraries (with matching documentation) to a standard which makes it quick and easy to maintain the code in the future
+- Enforce coding standards and validates architecture design for new and existing applications
+- Improve front-end development and testing tools, libraries and services
+- Collaborate with back-end and DevOps engineers
+- Interact with different business units for requirements gathering and solutioning
+
+**Tech used:**
+*HTML5, CSS3, JavaScript, Web Components, SASS, Webpack, High Charts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, NodeJS, Bash, AWS*
+
+
+### Taiger - Staff Front-End Engineer  *( Sept 2021 - Jan 2022 )*
 
 - Develop product and implement various product customisation based on client's design specifications
 - Enhance front end code architecture
@@ -20,6 +32,7 @@ Passionate about core web technologies, improving performance and best practices
 
 **Tech used:**
 *HTML5, CSS3, JavaScript, SASS, VueJS, Vuex, Jest, NodeJS, Bash*
+
 
 ### Maltem Consulting Group, Singapore - Software Consultant  *( June 2017 - Sept 2021 )*
 Project 3 : Singapore Exchange Limited - Investment Holdings Company
@@ -54,6 +67,7 @@ Role: Full-Stack Developer
 
 **Tech used:** 
 *Angular2, Bootstrap, NodeJS, ExpressJS, PostgreSQL*
+
 
 ### Accenture Inc, Philippines — Application Developer  *( April 2015 - June 2017 )*
 Project 3: Global Coffee and Tea Company

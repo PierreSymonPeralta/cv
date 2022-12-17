@@ -9,4 +9,4 @@ pageTitle: Contacts
 +65-81849775
 
 ### Singapore Address:
-#15-204 546 Hougang Street 51, Singapore 530546
+#02-10 38 Lorong 32 Geylang, Ness, Singapore 398298
