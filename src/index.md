@@ -14,21 +14,22 @@ Passionate about core web technologies, improving performance and best practices
 
 ### SGX Group (Singapore Exchange) - Senior Software Engineer  *( Jan 2022 - Present )*
 
-- Build reusable components, tools and libraries (with matching documentation) to a standard which makes it quick and easy to maintain the code in the future
+- Architect, develop and maintain multiple web applications for different business units
+- Build reusable components, tools and libraries (with matching documentation) to a standard which makes it quick and easy to be used by different applications
 - Enforce coding standards and validates architecture design for new and existing applications
 - Improve front-end development and testing tools, libraries and services
 - Collaborate with back-end and DevOps engineers
 - Interact with different business units for requirements gathering and solutioning
 
 **Tech used:**
-*HTML5, CSS3, JavaScript, Web Components, SASS, Webpack, High Charts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, NodeJS, Bash, AWS*
+*HTML5, CSS3, JavaScript, Web Components, SASS, Webpack, High Charts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, NodeJS, Bash, AWS Services*
 
 
 ### Taiger - Staff Front-End Engineer  *( Sept 2021 - Jan 2022 )*
 
 - Develop product and implement various product customisation based on client's design specifications
 - Enhance front end code architecture
-- Help to set up CI/CD pipelines on Bamboo
+- Set up CI/CD pipelines on Bamboo
 
 **Tech used:**
 *HTML5, CSS3, JavaScript, SASS, VueJS, Vuex, Jest, NodeJS, Bash*
