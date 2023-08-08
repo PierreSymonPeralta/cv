@@ -33,7 +33,7 @@
         </ul>
         <ul class="nav-menu">
           <li><a href="/cv/">Resume</a></li>
-          <li><a href="/cv/contact">Contact Me</a></li>
+          <li><a href="#" class="print-btn">Print</a></li>
         </ul>
         <hr>
         <ul class="nav-social-links">
@@ -51,16 +51,17 @@
 Passionate about core web technologies, improving performance and best practices.</p>
 <h2>Experience</h2>
 <h3>SGX Group (Singapore Exchange) - Senior Software Engineer  <em>( Jan 2022 - Present )</em></h3>
+<h4>As a consultant under STEENBOK PTE LTD from <em>( Jan 2022 - Sept 2022 )</em></h4>
 <ul>
 <li>Architect, develop and maintain multiple web applications for different business units</li>
 <li>Build reusable components, tools and libraries (with matching documentation) to a standard which makes it quick and easy to be used by different applications</li>
 <li>Enforce coding standards and validates architecture design for new and existing applications</li>
 <li>Improve front-end development and testing tools, libraries and services</li>
-<li>Collaborate with back-end and DevOps engineers</li>
+<li>Collaborate with Back-end and DevOps engineers</li>
 <li>Interact with different business units for requirements gathering and solutioning</li>
 </ul>
 <p><strong>Tech used:</strong>
-<em>HTML5, CSS3, JavaScript, Web Components, SASS, Webpack, High Charts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, NodeJS, Bash, AWS Services</em></p>
+<em>HTML5, CSS3, JavaScript, Web Components, SASS, Webpack, High Charts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, NodeJS, Bash, AWS Services (CloudFront, S3, Lambda)</em></p>
 <h3>Taiger - Staff Front-End Engineer  <em>( Sept 2021 - Jan 2022 )</em></h3>
 <ul>
 <li>Develop product and implement various product customisation based on client's design specifications</li>
@@ -156,4 +157,10 @@ future</li>
       <div class="footer">  Made with <a href="https://www.11ty.dev/" target="_blank">11ty</div>
     </div>
   </body>
+  <script>
+    const printBtn = document.querySelector('.print-btn');
+    printBtn.addEventListener('click', function (){
+      print();
+    });
+  </script>
 </html>
