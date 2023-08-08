@@ -37,7 +37,7 @@ profileImage: "/images/dp.png"
         </ul>
         <ul class="nav-menu">
           <li><a href="{{ '/' | url }}">Resume</a></li>
-          <li><a href="{{ '/contact' | url }}">Contact Me</a></li>
+          <li><a href="#" class="print-btn">Print</a></li>
         </ul>
         <hr>
         <ul class="nav-social-links">
@@ -53,4 +53,10 @@ profileImage: "/images/dp.png"
       <div class="footer">  Made with <a href="https://www.11ty.dev/" target="_blank">11ty</div>
     </div>
   </body>
+  <script>
+    const printBtn = document.querySelector('.print-btn');
+    printBtn.addEventListener('click', function (){
+      print();
+    });
+  </script>
 </html>
