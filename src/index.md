@@ -3,35 +3,52 @@ pageTitle: Pierre Symon Peralta
 layout: base.njk
 ---
 
-### Front-End Developer
+### JavaScript Developer
 
 ## Summary
-JavaScript developer with 7 years of experience of building web applications and tools for small to enterprise level organizations.
+JavaScript developer with 9 years of experience of building web applications and tools for small to enterprise level organizations.
 Passionate about core web technologies, improving performance and best practices.
 
+## Skills
 
-## Experience
+**Core** : *JavaScript, HTML5, CSS, WebComponents, NodeJS*
+
+**Tools**: *Webpack, Rollup, Vite, SASS, TypeScript*
+
+**Frameworks**: *ReactJS, Angular, VueJS, ExpressJS*
+
+**Currently Exploring**: *NextJS, SolidJS, Svelte, Vite, Python(for serverless functions)*
+
+**Testing**: *Mocha, Karma, Chai, Sinon, WebdriverIO with Cucumber for BDD, BrowserStack*
+
+**DevOps**: *Bamboo, Bitbucket, AWS(CloudFront, S3, Lambda), Azure Functions, Bash, Git*
+
+
+## Experiences
 
 ### SGX Group (Singapore Exchange) - Senior Software Engineer  *( Jan 2022 - Present )*
 
 #### As a consultant under STEENBOK PTE LTD from *( Jan 2022 - Sept 2022 )*
 
-- Architect, develop and maintain multiple web applications for different business units
-- Build reusable components, tools and libraries (with matching documentation) to a standard which makes it quick and easy to be used by different applications
-- Enforce coding standards and validates architecture design for new and existing applications
-- Improve front-end development and testing tools, libraries and services
-- Collaborate with Back-end and DevOps engineers
+- Develop and maintain multiple web application for different business unit (sgx.com, sgxgroup.com, regco.sgx.com etc)
+- Build reusable components, tools and libraries (with matching documentation) to a standard which makes it quick and easy to be used by different application
+- Enforce coding standards and validates architecture design for new and existing application
+- Implement partial server side rendering for SEO with the use of Lambda@Edge functions for SPA applications
+- Develop API using serverless technologies such as AWS lambda and Azure Functions
+- Collaborate with UX, Backend and DevOps engineers
 - Interact with different business units for requirements gathering and solutioning
 
 **Tech used:**
-*HTML5, CSS3, JavaScript, Web Components, SASS, Webpack, High Charts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, NodeJS, Bash, AWS Services (CloudFront, S3, Lambda)*
+*HTML5, CSS3, JavaScript, Web Components, SASS, Webpack, High Charts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, NodeJS, Bash, AWS Services (CloudFront, S3, Lambda), Azure (Azure Functions, API Management)*
 
 
 ### Taiger - Staff Front-End Engineer  *( Sept 2021 - Jan 2022 )*
 
-- Develop product and implement various product customisation based on client's design specifications
-- Enhance front end code architecture
-- Set up CI/CD pipelines on Bamboo
+- Develop web based application that uses Generative AI, Deep Learning for Natural Language Processing
+- Define and document front end architecture and guidelines for all core products to enforce consistency for better development work flow
+- Re factor and enhance existing code architecture for core products
+- Implement various product customization based on client's design specifications
+- Manage and setup CI/CD  pipelines on Bamboo
 
 **Tech used:**
 *HTML5, CSS3, JavaScript, SASS, VueJS, Vuex, Jest, NodeJS, Bash*
@@ -41,13 +58,10 @@ Passionate about core web technologies, improving performance and best practices
 Project 3 : Singapore Exchange Limited - Investment Holdings Company
 
 Role: Front-End and Automation Engineer
-- Write reusable web components and libraries (with matching documentation)
-to a standard which makes it quick and easy to maintain the code in the
-future
+- Develop reusable web components and libraries
+- Develop and maintain inhouse automation testing framework that uses page object model to match inhouse web components
 - Turn UI/UX prototypes into actual web applications
 - Collaborate with back-end and DevOps engineers
-- Help to develop different npm packages to achive automated testing
-- Write, execute and maintain automation tests
 - Interact with different business units for requirements gathering and solutioning
 
 **Tech used:**
@@ -77,8 +91,8 @@ Project 3: Global Coffee and Tea Company
 
 Role: Front-End Developer
 - Setup web pages using the Episerver CMS
-- Develop and customize CMS widgets
-- SEO and Google Analytics setup
+- Develop and customize reusable widgets/components
+- Manage SEO and Google Analytics setup
 
 **Tech used:** 
 *HTML5, CSS3, JavaScript, Episerver*
@@ -87,10 +101,10 @@ Project 2: Gaming Solution Company
 
 Role: Front-End Developer
 - Develop an online betting application for different kind of esports
-- Help to enhance and to create new features for legacy applications
+- Provide maintenance support for some legacy applications
 
 **Tech used:** 
-*jQuery, AngularJS, Bootstrap*
+*NodeJS, AngularJS, jQuery, Bootstrap*
 
 Project 1 : Cloud Connect
 
@@ -104,9 +118,9 @@ Role: Associate Software Engineer
 
 
 ### Endlessrise Inc. Philippines - Front End Developer  *( Feb 2015 – March 2015 )*
-- Customized pages, themes and widgets for Wordpress sites
-- Ensure all the pages and widgets are responsive
-- SEO and Google Analytics setup
+- Customize pages, themes and widgets for Wordpress application
+- Ensure all the pages and widgets are responsive with the use of media queries
+- Manage SEO and Google Analytics
 
 **Tech used:** 
 *HTML5, CSS3, JavaScript, PHP, Wordpress*
@@ -114,18 +128,6 @@ Role: Associate Software Engineer
 ### MC DLC Foods Inc *( Sept 2009 – March 2015 )*
 - Internal Management Trainee
 - Service Crew Chief & Crew Trainer
-
-## Skills
-
-**Core** : *HTML5, CSS3, JavaScript, Web Components, NodeJS*
-
-**Tools**: *Webpack, Rollup, SASS, TypeScripts, npm*
-
-**Frameworks**: *ReactJS, Angular, ExpressJS, Eleventy, Svelte(basic)*
-
-**Testing**: *Mocha, Karma, Chai, Sinon, Cucumber, WebdriverIO for BDD, BrowserStack*
-
-**DevOps**: *Bamboo, Bitbucket, AWS services, Bash Scripting, Git*
 
 
 ## Education
