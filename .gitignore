@@ -14,3 +14,6 @@ docs/
 
 # other files
 **/.DS_Store
+
+gh-pages
+gh-pages.pub
