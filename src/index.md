@@ -6,22 +6,23 @@ layout: base.njk
 ### JavaScript Developer
 
 ## Summary
-JavaScript developer with 9 years of experience of building web applications and tools for small to enterprise level organizations.
-Passionate about core web technologies, improving performance and best practices.
+JavaScript developer with 9 years of extensive experience of building web applications and tools from small to enterprise level organizations.
+Passionate about core web technologies, clean code, improving performance and best practices.
 
 ## Skills
 
-**Core** : *JavaScript, HTML5, CSS, WebComponents, NodeJS*
+**Core** : *JavaScript/TypeScript, HTML5, CSS/SASS, WebComponents, NodeJS*
 
-**Tools**: *Webpack, Rollup, Vite, SASS, TypeScript*
+**Tools**: *Webpack, Rollup, Vite, SASS*
 
-**Frameworks**: *ReactJS, Angular, VueJS, ExpressJS*
-
-**Currently Exploring**: *NextJS, SolidJS, Svelte, Vite, Python(for serverless functions)*
+**Frameworks**: *ReactJS, VueJS, Svelte, ExpressJS, Angular*
 
 **Testing**: *Mocha, Karma, Chai, Sinon, WebdriverIO with Cucumber for BDD, BrowserStack*
 
 **DevOps**: *Bamboo, Bitbucket, AWS(CloudFront, S3, Lambda), Azure Functions, Bash, Git*
+
+**Currently Exploring**: *NextJS, Astro, Python, LLMs*
+
 
 
 ## Experiences
@@ -30,13 +31,17 @@ Passionate about core web technologies, improving performance and best practices
 
 #### As a consultant under STEENBOK PTE LTD from *( Jan 2022 - Sept 2022 )*
 
-- Develop and maintain multiple web application for different business unit (sgx.com, sgxgroup.com, regco.sgx.com etc)
-- Build reusable components, tools and libraries (with matching documentation) to a standard which makes it quick and easy to be used by different application
-- Enforce coding standards and validates architecture design for new and existing application
-- Implement partial server side rendering for SEO with the use of Lambda@Edge functions for SPA applications
-- Develop API using serverless technologies such as AWS lambda and Azure Functions
-- Collaborate with UX, Backend and DevOps engineers
-- Interact with different business units for requirements gathering and solutioning
+- Develop and maintain multiple web application for different business unit (sgx.com, sgxgroup.com, regco. sgx.com and internal web applications)
+-   Interact with different business units for requirements gathering and solutioning
+-   Build reusable components, tools and libraries with matching documentation to a standard which makes it quick and easy to adopt by different application
+    - Core components, built on top of Web Components that is framework agnostic, used by different apps regardless of the framework that their using
+    -   An automation test framework, a cli tool which is a wrapper for WebdriverIO with built in Page Object models that is inline with our Core components
+    -   A custom build tool, inspired by create-react-app built on top webpack 5 that handles all complex configuration with custom loaders and plugins to cater specific application needs
+-   Enforce coding standards and validates architecture design for new and existing application
+-   Make sure that all tools and libraries are on latest or CVE free version
+-   Implement partial server side rendering for SEO with the use of Cloudfront Lambda@Edge functions for SPA applications
+-   Collaborate with UX, Backend and DevOps engineers
+-   Develop API using serverless technologies such as AWS lambda and Azure Functions
 
 **Tech used:**
 *HTML5, CSS3, JavaScript, Web Components, SASS, Webpack, High Charts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, NodeJS, Bash, AWS Services (CloudFront, S3, Lambda), Azure (Azure Functions, API Management)*
@@ -124,10 +129,6 @@ Role: Associate Software Engineer
 
 **Tech used:** 
 *HTML5, CSS3, JavaScript, PHP, Wordpress*
-
-### MC DLC Foods Inc *( Sept 2009 – March 2015 )*
-- Internal Management Trainee
-- Service Crew Chief & Crew Trainer
 
 
 ## Education
