@@ -11,11 +11,11 @@ Passionate about core web technologies, clean code, improving performance and be
 
 ## Skills
 
-**Core** : *JavaScript/TypeScript, HTML5, CSS/SASS, WebComponents, NodeJS*
+**Core** : *JavaScript/TypeScript, NodeJS, HTML5, CSS/SASS, WebComponents*
 
-**Tools**: *Webpack, Rollup, Vite, SASS*
+**Tools**: *Webpack, Rollup, Vite, Lerna(Monorepo), TailwindCSS*
 
-**Frameworks**: *ReactJS, VueJS, Svelte, ExpressJS, Angular*
+**Frameworks**: *ReactJS, NextJS, VueJS, Svelte, ExpressJS, Angular, Astro*
 
 **Testing**: *Mocha, Karma, Chai, Sinon, WebdriverIO with Cucumber for BDD, BrowserStack*
 
@@ -44,7 +44,7 @@ Passionate about core web technologies, clean code, improving performance and be
 -   Develop API using serverless technologies such as AWS lambda and Azure Functions
 
 **Tech used:**
-*HTML5, CSS3, JavaScript, Web Components, SASS, Webpack, High Charts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, NodeJS, Bash, AWS Services (CloudFront, S3, Lambda), Azure (Azure Functions, API Management)*
+*HTML5, CSS3, JavaScript, Web Components, SASS, Webpack, High Charts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, NodeJS, Bash, AWS Services (CloudFront, S3, Lambda), Azure (Azure Functions, API Management), Lerna*
 
 
 ### Taiger - Staff Front-End Engineer  *( Sept 2021 - Jan 2022 )*
