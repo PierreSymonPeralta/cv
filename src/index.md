@@ -3,10 +3,10 @@ pageTitle: Pierre Symon Peralta
 layout: base.njk
 ---
 
-### JavaScript Developer
+### Senior Software Engineer (Frontend)
 
 ## Summary
-JavaScript developer with 9.5 years of extensive experience of building web applications and tools from small to enterprise level organizations.
+Frontend developer with 9.5 years of extensive experience of building web applications and tools from small to enterprise level organizations.
 Passionate about core web technologies, clean code, improving performance and best practices.
 
 ## Skills
@@ -38,13 +38,12 @@ Passionate about core web technologies, clean code, improving performance and be
     - An automation test framework, a cli tool which is a wrapper for WebdriverIO with built in Page Object models that is inline with our Core components
     - A custom build tool, inspired by create-react-app built on top webpack 5 that handles all complex configuration with custom loaders and plugins to cater specific application needs
 -   Design and develop API using serverless technologies such as AWS lambda and Azure Functions
--   Enforce coding standards and validates architecture design for new and existing application
--   Make sure that all tools and libraries are on latest or CVE free version
 -   Implement partial server side rendering for SEO with the use of Cloudfront Lambda@Edge functions for SPA applications
 -   Collaborate with UX, Backend and DevOps engineers
+-   Working on building new component library with React/NextJS + Tailwind
 
 **Tech used:**
-*HTML5, CSS3, JavaScript, TypeScripts, Web Components, ReactJS, TailwindCSS, SASS, Webpack, HighCharts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, NodeJS, Bash, AWS Services (CloudFront, S3, Lambda), Azure (Azure Functions, API Management), Lerna*
+*HTML5, CSS3, JavaScript, TypeScripts, Web Components, React, TailwindCSS, SASS, Webpack, HighCharts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, NodeJS, Bash, AWS Services (CloudFront, S3, Lambda), Azure (Azure Functions, API Management), Lerna*
 
 
 ### Taiger - Staff Front-End Engineer  *( Sept 2021 - Jan 2022 )*
