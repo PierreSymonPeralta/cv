@@ -19,31 +19,37 @@ profileImage: "/images/dp.png"
   <title>{{ pageTitle }}</title>
 </head>
   <body>
-    <nav>
+    <header>
+      <div class="title">
+        <h1>{{pageTitle}}</h1>
+        <h3>Senior Software Engineer (Frontend)</h3>
+        <address class="contact-info">
+          <div>
+            <span>Email: </span>
+            <a href="mailto:pierresymonperalta@gmail.com">pierresymonperalta@gmail.com</a>
+          </div>
+          <div>
+            <span>Phone: </span>
+            <a href="tel:+6581849775">+65-81849775</a>
+          </div>
+          <div>
+            <span>Location: </span>
+            <span>Singapore</span>
+          </div>
+        </address>
+      </div>
+      
       <div class="nav-content">
-        <img src="{{ profileImage | url }}" alt={{ profileImage | url }}}>
-
-        {# for print #}
-        <ul class="nav-print-details">
-          <li>pierresymonperalta@gmail.com</li>
-          <li>+65-81849775</li>
-          <li>#02-10 38 Lorong 32 Geylang, Ness, Singapore 398298</li>
-        </ul>
-        <ul class="nav-menu">
-          <li><a href="{{ '/' | url }}">Resume</a></li>
-          <li><a href="#" class="print-btn">Print</a></li>
-        </ul>
-        <hr>
         <ul class="nav-social-links">
           <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/in/pierre-symon-peralta-b6a8a1117/">LinkedIn</a></li>
           <li><a class="github" target="_blank" href="https://github.com/PierreSymonPeralta">Github</a></li>
-          <li><a class="web-cv" target="_blank" href="https://pierresymonperalta.github.io/cv">Web Version</a></li>
+          <li><a href="#" class="print-btn">🖨️ Print</a></li>
+          <li><a class="web-cv" target="_blank" href="https://pierresymonperalta.github.io/cv">🔗 Web Link</a></li>
         </ul>
       </div>
-    </nav>
+    </header>
     
     <div class="main">
-      <h1>{{pageTitle}}</h1>
       {{ content | safe }}
       <div class="footer">  Made with <a href="https://www.11ty.dev/" target="_blank">11ty</div>
     </div>

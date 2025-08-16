@@ -8,90 +8,14 @@ body {
   padding: 0;
   margin: 0;
   min-height: 100vh;
-  display: flex;
-  align-items: stretch;
 }
-
-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  .nav-menu-btn {
-    display: none;
-  }
-
-  .nav-content {
-    height: 100%;
-    background-color: rgb(52, 87, 116);
-    padding: 2rem 1rem;
-  }
-
-  img {
-    display: inline-block;
-    width: 15vw;
-    height: 15vw;
-    max-width: 220px;
-    max-height: 220px;
-    border-radius: 50%;
-    filter: grayscale(80%);
-  }
-
-  img:hover {
-    filter: grayscale(50%);
-  }
-}
-
-nav ul {
-  width: 100%;
-  list-style: none;
-  padding: 0;
-  margin: 2rem 0 0 0;
-
-  li a {
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    padding: 1rem 0;
-  }
-}
-
-.nav-social-links a::before {
-  content: '';
-  background-size: 1rem;
-  display: inline-block;
-  width: 1rem; 
-  height: 1rem;
-  margin-right: 0.5rem;
-  margin-top: -5px;
-  transform: translateY(20%);
-}
-
-.nav-social-links .linkedin::before{
-  background-image: url('/cv/images/linkedIn.png');
-}
-
-.nav-social-links .github::before{
-  background-image: url('/cv/images/github.png');
-}
-
-.nav-print-details {
-  display: none;
-  word-break: break-all;
-  font-size: 0.5rem;
-
-  li {
-    padding: 4px 0;
-  }
-}  
-
 .main {
   position: relative;
   width: 100%;
-  padding: 1rem;
+  padding: 0 1rem;
 
   .footer {
-    font-size: 0.80rem;
+    font-size: 0.8rem;
     position: absolute;
     padding: 1rem;
     text-align: end;
@@ -101,19 +25,109 @@ nav ul {
   }
 }
 
-@media (max-width: 980px) { 
-  .nav-social-links a::before {
-    display: none;
+header {
+  padding: 1rem 1rem 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(52, 87, 116);
+  color: #fff;
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .title {
+    flex: 1;
+    h1 {
+      font-size: 1.5rem;
+      margin: 0.25rem 0;
+    }
+    h3 {
+      font-size: 1.25rem;
+      margin: 0.25rem 0;
+    }
+    .contact-info {
+      font-style: normal;
+      margin: 1rem 0;
+      span:first-child {
+        font-weight: bold;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+  .nav-content {
+    flex: 1;
+    a {
+      margin-right: 1rem;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+    }
+    .nav-social-links {
+      display: flex;
+      justify-content: flex-end;
+      .linkedin::before {
+        content: '';
+        background-size: 1rem;
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+        margin-top: -5px;
+        transform: translateY(20%);
+        background-image: url('/cv/images/linkedIn.png');
+      }
+      .github::before {
+        content: '';
+        background-size: 1rem;
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+        margin-top: -5px;
+        transform: translateY(20%);
+        background-image: url('/cv/images/github.png');
+      }
+    }
+    .nav-print-details {
+      display: none;
+      word-break: break-all;
+      font-size: 0.5rem;
+
+      li {
+        padding: 4px 0;
+      }
+    }
   }
 }
 
-@media print { 
+.web-cv,
+.print-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+@media (max-width: 720px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+@media print {
   body {
     margin-top: -18px;
     font-size: 0.7rem;
   }
-
-  h1, h3, p, ul {
+  h1,
+  h3,
+  p,
+  ul {
     margin: 4px 0;
   }
 
@@ -127,21 +141,13 @@ nav ul {
     border-bottom: 0.2px solid rgb(52, 87, 116);
   }
 
-  h3  {
+  h3 {
     font-size: 0.8rem;
     margin: 12px 0;
   }
 
-  nav {
-    max-width: 22%;
-    margin-left: -1rem;
-
-    .nav-menu {
-      display: none;
-    }
-
-    .nav-print-details {
-      display: block;
-    }
+  header {
+    color: black;
+    background-color: transparent;
   }
 }
