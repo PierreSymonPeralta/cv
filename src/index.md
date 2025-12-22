@@ -5,7 +5,7 @@ layout: base.njk
 
 ## Professional Summary
 
-Results-driven Frontend Engineer with 9.5+ years of expertise in architecting and delivering enterprise-scale web applications. Demonstrated track record in building framework-agnostic component libraries, automation frameworks, and performance-optimized solutions. Passionate about core web technologies and engineering best practices, with experience leading technical initiatives across multiple business domains.
+Results-driven Software Engineer with 9.5+ years of expertise in architecting and delivering enterprise-scale web applications. Specialized in frontend development with deep experience in building framework-agnostic component libraries, automation frameworks, and performance-optimized solutions, while also capable of backend and serverless development. Passionate about core web technologies and engineering best practices, with experience leading technical initiatives across multiple business domains.
 
 ## Core Competencies
 
@@ -18,17 +18,17 @@ Results-driven Frontend Engineer with 9.5+ years of expertise in architecting an
 
 ## Technical Skills
 
-**Core** : _JavaScript, TypeScript, NodeJS, HTML5, CSS/SASS, WebComponents_
+**Core** : _JavaScript, TypeScript, NodeJS, HTML5, CSS/SASS, WebComponents, Python_
 
-**Tools**: _Webpack, Rollup, Vite, Babel, Lerna(Monorepo), TailwindCSS_
+**Tools**: _Webpack, Vite, Babel, Lerna(Monorepo), TailwindCSS_
 
-**Frameworks**: _ReactJS, NextJS, VueJS, Svelte, ExpressJS, Angular_
+**Frameworks**: _ReactJS, NextJS, VueJS, ExpressJS, Angular_
 
 **Testing**: _Mocha, Karma, Chai, Sinon, Jest, WebdriverIO with Cucumber for BDD, BrowserStack_
 
-**DevOps**: Git, Bash, Bitbucket, Monorepo, AWS(CloudFront, S3, Lambda), Azure Functions
+**DevOps**: Git, Bash, Bitbucket, Monorepo, Amazon Web Services
 
-**Additional Skills**: Python, Bash
+**Additional Skills**: Test Automation, Abstract Syntax Tree (AST), Docker
 
 ## Experiences
 
@@ -36,19 +36,21 @@ Results-driven Frontend Engineer with 9.5+ years of expertise in architecting an
 
 #### As a consultant under STEENBOK PTE LTD from _( Jan 2022 - Sept 2022 )_
 
-- Develop and maintain multiple web application for different business unit (sgx.com, sgxgroup.com, regco. sgx.com and internal web applications)
-- Interact with different business units for requirements gathering and solutioning
-- Build reusable components, tools and libraries with matching documentation to a standard which makes it quick and easy to adopt by different application
-  - Core components, built on top of Web Components that is framework agnostic, used by different web apps accross the organization
-  - An automation test framework, a cli tool which is a wrapper for WebdriverIO with built in Page Object models that is inline with our Core components
-  - A custom build tool, inspired by create-react-app built on top webpack 5 that handles all complex configuration with custom loaders and plugins to cater specific application needs
-- Design and develop API using serverless technologies such as AWS lambda and Azure Functions
-- Implement partial server side rendering for SEO with the use of Cloudfront Lambda@Edge functions for SPA applications
-- Collaborate with UX, Backend and DevOps engineers
-- Working on building new component library with React/NextJS + Tailwind
+- Developed and maintained multiple web applications across business units, including sgx.com, sgxgroup.com, regco.sgx.com, and internal tools.
+- Collaborated with business stakeholders to gather requirements and design scalable, user-focused solutions.
+- Built reusable components, libraries, and tools with clear documentation to accelerate adoption across projects:
+  - Web Components Library: Framework-agnostic components leveraged across multiple web applications for consistent UI and faster development.
+  - Automation Test Framework & CLI: wrapper around WebdriverIO with built-in Page Object models aligned with web components library.
+  - Custom Build Tool: Webpack 5-based solution inspired by Create React App, simplifying complex configuration for project-specific needs.
+- Developed a codemod leveraging Abstract Syntax Tree (AST) transformations to automate code modifications during Web Components upgrades, significantly reducing manual effort.
+- Designed and implemented serverless APIs and middleware services using AWS Lambda and Azure Functions, including Python-based middleware to handle business logic and data processing.
+- Collaborated closely with UX designers, backend, and DevOps engineers to deliver end-to-end solutions.
+- Currently leading development of a new React/Next.js + Tailwind component library.
+- Developed a Microsoft Teams Bot using Node.js to enhance internal communication, facilitating incident management, change management, and time tracking for vendor service providers.
+- Deployed cloud architecture using AWS CloudFormation to automate infrastructure provisioning and management.
 
 **Tech used:**
-_HTML5, CSS3, JavaScript, TypeScripts, Web Components, React, TailwindCSS, SASS, Webpack, HighCharts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, NodeJS, Bash, AWS Services (CloudFront, S3, Lambda), Azure (Azure Functions, API Management), Lerna_
+_HTML5, CSS3, JavaScript, TypeScripts, NodeJS, Web Components, React, TailwindCSS, SASS, Webpack, HighCharts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, NodeJS, Bash, Azure, Lerna_
 
 ### Taiger - Staff Front-End Engineer _( Sept 2021 - Jan 2022 )_
 
@@ -63,7 +65,7 @@ _HTML5, CSS3, JavaScript, SASS, VueJS, Vuex, Jest, NodeJS, Bash_
 
 ### Maltem Consulting Group, Singapore - Software Consultant _( June 2017 - Sept 2021 )_
 
-Project 3 : Singapore Exchange Limited - Investment Holdings Company
+Project 3 : Investment Holdings Company
 
 Role: Front-End and Automation Engineer
 
@@ -76,7 +78,7 @@ Role: Front-End and Automation Engineer
 **Tech used:**
 _HTML5, CSS3, JavaScript, Web Components, SASS, Webpack, WebdriverIO, Cucumber, Mocha, Chai, Sinon, NodeJS, Bash_
 
-Project 2: FreemanXP - Marketing Event Company
+Project 2: Marketing Event Company
 
 Role: Mobile App Developer
 
@@ -86,7 +88,7 @@ Role: Mobile App Developer
 **Tech used:**
 _Ionic 2, RxJS_
 
-Project 1: Maltem Inc - Human Resource Management System
+Project 1: In-House CRM System
 
 Role: Full-Stack Developer
 
@@ -129,15 +131,6 @@ Role: Associate Software Engineer
 
 **Tech used:**
 _PLSQL_
-
-### Endlessrise Inc. Philippines - Front End Developer _( Feb 2015 – March 2015 )_
-
-- Customize pages, themes and widgets for Wordpress application
-- Ensure all the pages and widgets are responsive with the use of media queries
-- Manage SEO and Google Analytics
-
-**Tech used:**
-_HTML5, CSS3, JavaScript, PHP, Wordpress_
 
 ## Education
 
