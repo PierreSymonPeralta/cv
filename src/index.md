@@ -5,20 +5,24 @@ layout: base.njk
 
 ## Professional Summary
 
-Results-driven Software Engineer with 9.5+ years of expertise in architecting and delivering enterprise-scale web applications. Specialized in frontend development with deep experience in building framework-agnostic component libraries, automation frameworks, and performance-optimized solutions, while also capable of backend and serverless development. Passionate about core web technologies and engineering best practices, with experience leading technical initiatives across multiple business domains.
+Results-driven Software Engineer with 10+ years of experience designing and delivering enterprise-scale web applications and developer platforms. Specialized in frontend architecture with extensive experience building framework-agnostic component libraries, automation frameworks, cloud-native applications, and enterprise integrations. Proven track record of leading technical initiatives across multiple business domains, enabling AI adoption through enterprise search and Generative AI platforms, and delivering scalable solutions that improve developer productivity and business operations. Experienced across frontend, backend, serverless, cloud infrastructure, and AI-powered enterprise applications.
 
 ## Core Competencies
 
-- Frontend Architecture Design
+- Frontend Architecture & Design
+- Enterprise AI Enablement
+- Developer Platform Engineering
 - Component Library Development
-- Test Automation & Quality Assurance
+- Cloud & Serverless Architecture
+- Test Automation & Quality Engineering
 - Performance Optimization
 - Technical Leadership
 - Cross-functional Collaboration
+- Enterprise System Integration
 
 ## Technical Skills
 
-**Core** : _JavaScript, TypeScript, NodeJS, HTML5, CSS/SASS, WebComponents, Python_
+**Core** : _JavaScript, TypeScript, NodeJS, Python, HTML5, CSS/SASS, Web Components_
 
 **Tools**: _Webpack, Vite, Babel, Lerna(Monorepo), TailwindCSS_
 
@@ -28,6 +32,10 @@ Results-driven Software Engineer with 9.5+ years of expertise in architecting an
 
 **DevOps**: Git, Bash, Bitbucket, Monorepo, Amazon Web Services
 
+**Cloud**: AWS, Azure Functions, AWS Lambda, CloudFormation
+
+**AI/Enterprise**: Gemini Enterprise, Vertex AI Search, Enterprise Search, Microsoft 365 Graph APIs, Atlassian APIs (Confluence, Jira)
+
 **Additional Skills**: Test Automation, Abstract Syntax Tree (AST), Docker
 
 ## Experiences
@@ -36,21 +44,24 @@ Results-driven Software Engineer with 9.5+ years of expertise in architecting an
 
 #### As a consultant under STEENBOK PTE LTD from _( Jan 2022 - Sept 2022 )_
 
-- Developed and maintained multiple web applications across business units, including sgx.com, sgxgroup.com, regco.sgx.com, and internal tools.
-- Collaborated with business stakeholders to gather requirements and design scalable, user-focused solutions.
+- Developed and maintained multiple enterprise web applications across business units, including sgx.com, sgxgroup.com, regco.sgx.com, and internal platforms.
+- Led the technical enablement of Gemini Enterprise across the organization, partnering with stakeholders to integrate enterprise knowledge sources and accelerate AI adoption.
+- Led the design and development of enterprise connectors for Gemini Enterprise, integrating business systems including Microsoft 365, Confluence, and Jira (Atlassian) to enable secure enterprise search and AI-powered knowledge discovery.
+- Designed scalable integration solutions for enterprise content indexing, authentication, and data synchronization across multiple internal platforms.
+- Collaborated with business stakeholders to identify high-value AI use cases and translate business requirements into technical solutions.
 - Built reusable components, libraries, and tools with clear documentation to accelerate adoption across projects:
   - Web Components Library: Framework-agnostic components leveraged across multiple web applications for consistent UI and faster development.
-  - Automation Test Framework & CLI: wrapper around WebdriverIO with built-in Page Object models aligned with web components library.
+  - Automation Test Framework & CLI: Wrapper around WebdriverIO with built-in Page Object Models aligned with the Web Components library.
   - Custom Build Tool: Webpack 5-based solution inspired by Create React App, simplifying complex configuration for project-specific needs.
-- Developed a codemod leveraging Abstract Syntax Tree (AST) transformations to automate code modifications during Web Components upgrades, significantly reducing manual effort.
-- Designed and implemented serverless APIs and middleware services using AWS Lambda and Azure Functions, including Python-based middleware to handle business logic and data processing.
-- Collaborated closely with UX designers, backend, and DevOps engineers to deliver end-to-end solutions.
-- Currently leading development of a new React/Next.js + Tailwind component library.
-- Developed a Microsoft Teams Bot using Node.js to enhance internal communication, facilitating incident management, change management, and time tracking for vendor service providers.
-- Deployed cloud architecture using AWS CloudFormation to automate infrastructure provisioning and management.
+- Developed a codemod leveraging Abstract Syntax Tree (AST) transformations to automate Web Components upgrades, significantly reducing manual migration effort.
+- Designed and implemented serverless APIs and middleware services using AWS Lambda and Azure Functions, including Python-based middleware for business logic and data processing.
+- Led the development of a modern React/Next.js + Tailwind CSS component library for enterprise applications.
+- Developed a Microsoft Teams Bot using Node.js to streamline incident management, change management, and vendor time tracking.
+- Automated cloud infrastructure provisioning using AWS CloudFormation.
+- Collaborated closely with UX designers, backend engineers, DevOps teams, and business stakeholders to deliver end-to-end enterprise solutions.
 
 **Tech used:**
-_HTML5, CSS3, JavaScript, TypeScripts, NodeJS, Web Components, React, TailwindCSS, SASS, Webpack, HighCharts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, NodeJS, Bash, Azure, Lerna_
+_HTML5, CSS3, JavaScript, TypeScript, Node.js, Python, React, Next.js, Web Components, Tailwind CSS, SASS, Webpack, Highcharts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, AWS Lambda, Azure Functions, CloudFormation, Microsoft 365 APIs, Gemini Enterprise, Vertex AI Search, Atlassian APIs (Confluence & Jira), Bash, Lerna_
 
 ### Taiger - Staff Front-End Engineer _( Sept 2021 - Jan 2022 )_
 
