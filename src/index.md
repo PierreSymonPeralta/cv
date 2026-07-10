@@ -44,21 +44,18 @@ Results-driven Software Engineer with 10+ years of experience designing and deli
 
 #### As a consultant under STEENBOK PTE LTD from _( Jan 2022 - Sept 2022 )_
 
-- Developed and maintained multiple enterprise web applications across business units, including sgx.com, sgxgroup.com, regco.sgx.com, and internal platforms.
-- Led the technical enablement of Gemini Enterprise across the organization, partnering with stakeholders to integrate enterprise knowledge sources and accelerate AI adoption.
-- Led the design and development of enterprise connectors for Gemini Enterprise, integrating business systems including Microsoft 365, Confluence, and Jira (Atlassian) to enable secure enterprise search and AI-powered knowledge discovery.
-- Designed scalable integration solutions for enterprise content indexing, authentication, and data synchronization across multiple internal platforms.
-- Collaborated with business stakeholders to identify high-value AI use cases and translate business requirements into technical solutions.
-- Built reusable components, libraries, and tools with clear documentation to accelerate adoption across projects:
-  - Web Components Library: Framework-agnostic components leveraged across multiple web applications for consistent UI and faster development.
-  - Automation Test Framework & CLI: Wrapper around WebdriverIO with built-in Page Object Models aligned with the Web Components library.
-  - Custom Build Tool: Webpack 5-based solution inspired by Create React App, simplifying complex configuration for project-specific needs.
-- Developed a codemod leveraging Abstract Syntax Tree (AST) transformations to automate Web Components upgrades, significantly reducing manual migration effort.
-- Designed and implemented serverless APIs and middleware services using AWS Lambda and Azure Functions, including Python-based middleware for business logic and data processing.
-- Led the development of a modern React/Next.js + Tailwind CSS component library for enterprise applications.
-- Developed a Microsoft Teams Bot using Node.js to streamline incident management, change management, and vendor time tracking.
+- Developed and maintained enterprise web applications across business units, including sgx.com, sgxgroup.com, regco.sgx.com, and internal platforms.
+- Led the technical enablement of Gemini Enterprise across the organization, integrating enterprise knowledge sources to accelerate AI adoption.
+- Led the design and development of Gemini Enterprise connectors for Microsoft 365, Confluence, and Jira, enabling secure enterprise search and AI-powered knowledge discovery.
+- Partnered with business stakeholders to identify high-value AI use cases and translate them into technical solutions.
+- Built a framework-agnostic Web Components library adopted across multiple web applications.
+- Built a WebdriverIO-based test automation framework and CLI with built-in Page Object Models.
+- Built a custom Webpack 5 build tool inspired by Create React App to simplify project configuration.
+- Developed an AST-based codemod to automate Web Components upgrades, cutting manual migration effort.
+- Designed serverless APIs and middleware on AWS Lambda and Azure Functions.
+- Led development of a React/Next.js + Tailwind CSS component library for enterprise applications.
+- Built a Microsoft Teams Bot (Node.js) to streamline incident management, change management, and vendor time tracking.
 - Automated cloud infrastructure provisioning using AWS CloudFormation.
-- Collaborated closely with UX designers, backend engineers, DevOps teams, and business stakeholders to deliver end-to-end enterprise solutions.
 
 **Tech used:**
 _HTML5, CSS3, JavaScript, TypeScript, Node.js, Python, React, Next.js, Web Components, Tailwind CSS, SASS, Webpack, Highcharts, WebdriverIO, Cucumber, Mocha, Chai, Sinon, AWS Lambda, Azure Functions, CloudFormation, Microsoft 365 APIs, Gemini Enterprise, Vertex AI Search, Atlassian APIs (Confluence & Jira), Bash, Lerna_
