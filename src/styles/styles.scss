@@ -119,6 +119,17 @@ header {
   }
 }
 
+@media screen and (min-width: 721px) {
+  header {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .main {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
 @media print {
   body {
     margin-top: -18px;
