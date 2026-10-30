@@ -9,55 +9,50 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/cv/images/favicon-16x16.png">
   
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">  
-  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/cv/styles/styles.css">
   <title>Blog Two</title>
 </head>
   <body>
     <header>
-      <div class="title">
-        <h1>Blog Two</h1>
-        <h3>Senior Software Engineer | Frontend Architecture & Enterprise AI</h3>
-        <address class="contact-info">
-          <div>
-            <span>Email: </span>
+      <div class="container">
+        <div class="title">
+          <h1>Blog Two</h1>
+          <p class="headline">Principal Software Engineer | Enterprise AI & Agents</p>
+          <address class="contact-info">
             <a href="mailto:pierresymonperalta@gmail.com">pierresymonperalta@gmail.com</a>
-          </div>
-          <div>
-            <span>Phone: </span>
-            <a href="tel:+6581849775">+65-81849775</a>
-          </div>
-          <div>
-            <span>Location: </span>
+            <a href="tel:+6581849775">+65 8184 9775</a>
             <span>Singapore</span>
-          </div>
-        </address>
-      </div>
-      
-      <div class="nav-content">
-        <ul class="nav-social-links">
-          <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/in/pierre-symon-peralta-b6a8a1117/">LinkedIn</a></li>
-          <li><a class="github" target="_blank" href="https://github.com/PierreSymonPeralta">Github</a></li>
-          <li><a href="#" class="print-btn">Print</a></li>
-          <li><a class="web-cv" target="_blank" href="https://pierresymonperalta.github.io/cv">Web Version</a></li>
-        </ul>
+          </address>
+        </div>
+
+        <nav class="nav-content">
+          <ul class="nav-social-links">
+            <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/in/pierre-symon-peralta-b6a8a1117/">LinkedIn</a></li>
+            <li><a class="github" target="_blank" href="https://github.com/PierreSymonPeralta">GitHub</a></li>
+            <li><a class="web-cv" target="_blank" href="https://pierresymonperalta.github.io/cv">Web Version</a></li>
+            <li><a href="#" class="print-btn">Print</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
-    
-    <div class="main">
+
+    <main class="main">
       <a href="/cv/blogs">< Back</a>
 
 <p>This is the blog two</p>
 
 
-<span>Published on: Tue Jul 14 2026</span>
-      <div class="footer">  Made with <a href="https://www.11ty.dev/" target="_blank">11ty</div>
-    </div>
+<span>Published on: Fri Oct 30 2026</span>
+      <footer class="footer">Made with <a href="https://www.11ty.dev/" target="_blank">11ty</a></footer>
+    </main>
   </body>
   <script>
     const printBtn = document.querySelector('.print-btn');
-    printBtn.addEventListener('click', function (){
+    printBtn.addEventListener('click', function (e){
+      e.preventDefault();
       print();
     });
   </script>
